@@ -14,8 +14,8 @@ BEGIN
         PRINT "QA Tester: There’s a BUG affecting the checkout button on mobile."
         PRINT "Developer B: I saw that too. Let's reproduce it in the SANDBOX environment first."
 
-        PRINT "Team Lead: Confirm this is not affecting DROP?"
-        PRINT "QA Tester: Correct, DROP is stable. Only SANDBOX shows the issue."
+        PRINT "Team Lead: Confirm this is not affecting PROD?"
+        PRINT "QA Tester: Correct, PROD is stable. Only SANDBOX shows the issue."
 
         PRINT "Developer A: I’ve written a HOTFIX and pushed it to the staging branch."
         PRINT "SysAdmin: Great. We’ll apply the PATCH to the live server after approval."
